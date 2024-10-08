@@ -25,7 +25,7 @@ abstract class BaseProviderState<P extends BaseProvider,
       },
       lazy: lazyProvider,
       child: Builder(
-        builder: (ctx) {
+        builder: (context) {
           if (!_listenersAttached) {
             _listenersAttached = true;
             _attachListeners(context);
