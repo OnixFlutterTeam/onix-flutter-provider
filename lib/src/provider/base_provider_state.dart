@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:onix_flutter_core_models/onix_flutter_core_models.dart';
-import 'package:onix_flutter_provider/src/domain/entity/progress_state/progress_state.dart';
 import 'package:onix_flutter_provider/src/provider/base_provider.dart';
 import 'package:provider/provider.dart';
 

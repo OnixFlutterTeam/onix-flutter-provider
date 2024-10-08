@@ -40,6 +40,8 @@ dependencies:
   onix_flutter_provider:
     path: ../
   provider: ^6.1.2
+  onix_flutter_core: ^0.0.5
+  onix_flutter_core_models: ^0.0.2
 
 dev_dependencies:
   flutter_test:

@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   loader_overlay: ^4.0.2+1
-  onix_flutter_core_models: ^0.0.1
+  onix_flutter_core_models: ^0.0.2
   provider: ^6.1.2
 
 dev_dependencies:
