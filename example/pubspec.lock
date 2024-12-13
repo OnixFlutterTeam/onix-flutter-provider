@@ -236,10 +236,10 @@ packages:
     dependency: "direct main"
     description:
       name: get_it
-      sha256: ff97e5e7b2e82e63c82f5658c6ba2605ea831f0f7489b0d2fb255d817ec4eb5e
+      sha256: c49895c1ecb0ee2a0ec568d39de882e2c299ba26355aa6744ab1001f98cebd15
       url: "https://pub.dev"
     source: hosted
-    version: "8.0.0"
+    version: "8.0.2"
   http:
     dependency: transitive
     description:
@@ -316,10 +316,10 @@ packages:
     dependency: "direct main"
     description:
       name: loader_overlay
-      sha256: b87bd0c5f4a0c8249613b1c1666344469177535a6b7782b620a4ff1b8f52efa1
+      sha256: bde643b0d3b5c9d9ea9010948d11cb3d17cdcb3f29576b9c47e0047a5b52ae75
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.2+1"
+    version: "4.0.3"
   matcher:
     dependency: transitive
     description:
@@ -372,17 +372,17 @@ packages:
     dependency: "direct main"
     description:
       name: onix_flutter_core_models
-      sha256: "6e247447fb877221d4a8c3512da491db9da86af746cf6cfa91c9d9eaa79b7588"
+      sha256: "625448f2c48597b08e506062239051c8427aa1c52aa32f36b484501e59e15396"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.2"
+    version: "0.0.3-beta.1"
   onix_flutter_provider:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.2-beta.1"
   path:
     dependency: transitive
     description:

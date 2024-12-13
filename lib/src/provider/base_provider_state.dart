@@ -19,7 +19,6 @@ abstract class BaseProviderState<P extends BaseProvider,
         final provider = createProvider();
         _provider = provider;
         onProviderCreated(context, provider);
-        _attachListeners(context);
         return provider;
       },
       lazy: lazyProvider,
@@ -58,7 +57,7 @@ abstract class BaseProviderState<P extends BaseProvider,
 
   void onProviderCreated(BuildContext context, P provider) {}
 
-  void onFailure(BuildContext context, Failure failure) {}
+  void onFailure(BuildContext context, Exception failure) {}
 
   void onProgress(BuildContext context, BaseProgressState progress) {
     if (progress is DefaultProgressState) {

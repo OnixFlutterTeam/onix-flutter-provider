@@ -36,7 +36,7 @@ It is also possible to override the onFailure method to handle failure objects:
 @override
 void onFailure(
   BuildContext context,
-  Failure failure,
+  Exception failure,
 ) {
   ...
 }

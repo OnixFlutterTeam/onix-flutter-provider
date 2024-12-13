@@ -1,5 +1,6 @@
 import 'package:example/base_provider_example/provider/base_provider_example_screen_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:onix_flutter_core_models/onix_flutter_core_models.dart';
 import 'package:onix_flutter_provider/onix_flutter_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -20,6 +21,19 @@ class _BaseProviderExampleScreenState extends BaseProviderState<
   @override
   BaseProviderExampleScreenProvider createProvider() {
     return BaseProviderExampleScreenProvider();
+  }
+
+  @override
+  void onFailure(BuildContext context, Exception failure) {
+    debugPrint(failure.toString());
+  }
+
+  @override
+  void onProgress(
+    BuildContext context,
+    BaseProgressState progress,
+  ) {
+    debugPrint(progress.toString());
   }
 
   @override
