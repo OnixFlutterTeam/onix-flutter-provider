@@ -6,7 +6,7 @@ management.
 Extend you Provider class from `BaseProvider`:
 
 ```
-class ExampleScreenBloc extends BaseProvider
+class ExampleScreenProvider extends BaseProvider
 ```
 
 Extend you widget from `BaseProviderState`
